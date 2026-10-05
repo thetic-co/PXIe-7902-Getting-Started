@@ -1,7 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">23.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">This example shows best practices for high-performance data streaming and movement for the 791x FlexRIO Module acting as a coprocessor device.</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -430,13 +431,8 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
             <Socket>RoutingSocketType1v1</Socket>
          </CompatibleCLIPSocketList>
          <DeclarationPaths>
-            <Absolute>C:\dev\_r\6\src\flexrio\lv\j7up4xyrxwfmq\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</Absolute>
+            <Absolute>C:\Program Files\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</Absolute>
             <MD5>3119caa9fb9c07750e2167f77fb30262</MD5>
-            <RelativeToLabVIEW>Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>..\..\..\..\dev\_r\6\src\flexrio\lv\j7up4xyrxwfmq\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToNiPubDocs>
-            <RelativeToNiSharedDir>..\..\dev\_r\6\src\flexrio\lv\j7up4xyrxwfmq\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToProject>
-            <Valid>true</Valid>
          </DeclarationPaths>
          <Description></Description>
          <FormatVersion>4.3</FormatVersion>
@@ -2368,7 +2364,7 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 				<Property Name="NI.SortType" Type="Int">3</Property>
 			</Item>
 			<Item Name="Routing" Type="FPGA Component Level IP">
-				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">true</Property>
+				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">false</Property>
 				<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
 <CLIPConnections>
    <CLIPSignal name="DataClk">
@@ -3497,6 +3493,9 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="PXIe-791X_Getting_Started.lvbitx" Type="Document" URL="../FPGA Bitfiles/PXIe-791X_Getting_Started.lvbitx"/>
+			<Item Name="nip2p.dll" Type="Document" URL="nip2p.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
