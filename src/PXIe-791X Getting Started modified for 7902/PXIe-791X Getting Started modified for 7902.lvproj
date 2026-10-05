@@ -433,6 +433,11 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
          <DeclarationPaths>
             <Absolute>C:\Program Files\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</Absolute>
             <MD5>3119caa9fb9c07750e2167f77fb30262</MD5>
+            <RelativeToLabVIEW>..\..\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>..\..\..\..\Program Files\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToNiPubDocs>
+            <RelativeToNiSharedDir>..\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToNiSharedDir>
+            <RelativeToProject>..\..\..\..\..\..\Program Files\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToProject>
+            <Valid>true</Valid>
          </DeclarationPaths>
          <Description></Description>
          <FormatVersion>4.3</FormatVersion>
@@ -3433,6 +3438,894 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 					<Property Name="TopLevelVI" Type="Ref">/My Computer/Coprocessor FPGA/PXIe-791X Getting Started (FPGA).vi</Property>
 				</Item>
 			</Item>
+		</Item>
+		<Item Name="Coprocessor FPGA (PXIe-7902)" Type="FPGA Target">
+			<Property Name="AutoRun" Type="Bool">false</Property>
+			<Property Name="configString.guid" Type="Str">{5C06D95B-330B-46E2-B068-282D5C62F960}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{5E59E60C-EFB1-420A-8CD3-CC78EA896187}ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{5F0E3900-B175-4359-B5FE-C25E2CDBC526}"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{812F8ECF-A6D9-4DD6-B2B8-BBB29F565C2D}"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{8CBD3E7F-29DB-4332-A615-327BC6EE7422}Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2{9EA46C7F-9750-420E-A365-365D52C6182F}"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{A5866628-BB04-4AB8-A528-E54996A378D6}ResourceName=DRAM Clock;TopSignalConnect=DramClkUser;ClockSignalName=DramClkUser;MinFreq=175000000.000000;MaxFreq=175000000.000000;VariableFreq=0;NomFreq=175000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2DB5120-1A19-4189-BCD6-E158F325FD44}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"PXIe-7902R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7902RFPGA_TARGET_FAMILYVIRTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+			<Property Name="configString.name" Type="Str">200 MHz ClockResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DMA from Host"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"DMA to Host"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"DRAM ClockResourceName=DRAM Clock;TopSignalConnect=DramClkUser;ClockSignalName=DramClkUser;MinFreq=175000000.000000;MaxFreq=175000000.000000;VariableFreq=0;NomFreq=175000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DRAM_FIFO0_33554432Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"P2P Writer"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"PXIe-7902R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7902RFPGA_TARGET_FAMILYVIRTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+			<Property Name="ForceCompileConfigUpdate" Type="Bool">true</Property>
+			<Property Name="Mode" Type="Int">0</Property>
+			<Property Name="NI.LV.FPGA.659XR.ActiveSerialIo.Valid" Type="Bool">true</Property>
+			<Property Name="NI.LV.FPGA.659XR.ActiveSerialIo.Version" Type="Int">1</Property>
+			<Property Name="NI.LV.FPGA.659XR.ClockingAndRoutingTab" Type="Str">&lt;Cluster&gt;
+&lt;Name&gt;Clocking and Routing Tab State&lt;/Name&gt;
+&lt;NumElts&gt;13&lt;/NumElts&gt;
+&lt;EW&gt;
+&lt;Name&gt;Input Clock&lt;/Name&gt;
+&lt;Choice&gt;PXIe_Clk100&lt;/Choice&gt;
+&lt;Choice&gt;CLK IN/OUT&lt;/Choice&gt;
+&lt;Choice&gt;PXIe_DStarA&lt;/Choice&gt;
+&lt;Choice&gt;PORT 0&lt;/Choice&gt;
+&lt;Choice&gt;PORT 1&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Input Clock Frequency&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SMA Clock Out&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;DBL&gt;
+&lt;Name&gt;SMA Clock Out Frequency&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;MgtRefClk0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;DBL&gt;
+&lt;Name&gt;MgtRefClk0 Clock Frequency&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;MgtRefClk1&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;DBL&gt;
+&lt;Name&gt;MgtRefClk1 Clock Frequency&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Port 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Port 1&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Port 0 and 1 Frequency&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;MgtRefClk2&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;DBL&gt;
+&lt;Name&gt;MgtRefClk2 Clock Frequency&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+</Property>
+			<Property Name="NI.LV.FPGA.659XR.ClockingPageHasBeenOpenedAtLeastOnce" Type="Bool">false</Property>
+			<Property Name="NI.LV.FPGA.659XR.IOConfigurationTab" Type="Str">&lt;Cluster&gt;
+&lt;Name&gt;IO Configuration Tab State&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 0 RX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 0 TX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 1 RX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 1 TX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 2 RX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 2 TX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 3 RX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 3 TX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 4 RX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 4 TX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 5 RX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Port 5 TX&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;TX 0&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+</Property>
+			<Property Name="NI.LV.FPGA.7902.IOPageHasBeenOpenedAtLeastOnce" Type="Bool">false</Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">0</Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml">
+<CLIPDeclarationSet>
+</CLIPDeclarationSet></Property>
+			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXIe-7902R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7902RFPGA_TARGET_FAMILYVIRTEX7TARGET_TYPEFPGA</Property>
+			<Property Name="NI.LV.FPGA.DramBanksReservedForMemories" Type="Str">DramBank0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer.ArrayLength" Type="UInt">2</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer[0].ConstraintString" Type="Str"></Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer[0].Descriptor.Name" Type="Str">MGT Lane Location Constraints</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer[0].Descriptor.Priority" Type="UInt">100</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer[0].Descriptor.Window" Type="Str"></Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer[1].ConstraintString" Type="Str"></Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer[1].Descriptor.Name" Type="Str">Reference Clock Location Constraints</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer[1].Descriptor.Priority" Type="UInt">200</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.ConstraintsContainer[1].Descriptor.Window" Type="Str"></Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.Constraints.Version" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer.ArrayLength" Type="UInt">3</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].Descriptor.Name" Type="Str">GPIO Voltage</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].Descriptor.Priority" Type="UInt">300</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].Descriptor.Window" Type="Str"></Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].RegisterSequence.ArrayLength" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].RegisterSequence[0].Address" Type="UInt">2312</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].RegisterSequence[0].Data" Type="UInt">10</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].RegisterSequence[0].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].RegisterSequence[0].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[0].RegisterSequence[0].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].Descriptor.Name" Type="Str">Port Expander</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].Descriptor.Priority" Type="UInt">500</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].Descriptor.Window" Type="Str"></Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence.ArrayLength" Type="UInt">2</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[0].Address" Type="UInt">1027</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[0].Data" Type="UInt">137</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[0].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[0].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[0].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[1].Address" Type="UInt">1031</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[1].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[1].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[1].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[1].RegisterSequence[1].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].Descriptor.Name" Type="Str">Si5368</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].Descriptor.Priority" Type="UInt">600</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].Descriptor.Window" Type="Str">kSi5368_Window</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence.ArrayLength" Type="UInt">67</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[0].Address" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[0].Data" Type="UInt">20</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[0].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[0].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[0].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[1].Address" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[1].Data" Type="UInt">228</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[1].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[1].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[1].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[10].Address" Type="UInt">10</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[10].Data" Type="UInt">47</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[10].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[10].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[10].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[11].Address" Type="UInt">11</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[11].Data" Type="UInt">77</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[11].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[11].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[11].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[12].Address" Type="UInt">12</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[12].Data" Type="UInt">136</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[12].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[12].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[12].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[13].Address" Type="UInt">13</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[13].Data" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[13].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[13].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[13].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[14].Address" Type="UInt">14</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[14].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[14].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[14].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[14].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[15].Address" Type="UInt">15</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[15].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[15].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[15].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[15].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[16].Address" Type="UInt">16</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[16].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[16].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[16].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[16].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[17].Address" Type="UInt">17</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[17].Data" Type="UInt">128</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[17].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[17].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[17].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[18].Address" Type="UInt">18</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[18].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[18].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[18].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[18].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[19].Address" Type="UInt">19</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[19].Data" Type="UInt">44</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[19].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[19].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[19].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[2].Address" Type="UInt">2</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[2].Data" Type="UInt">162</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[2].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[2].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[2].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[20].Address" Type="UInt">20</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[20].Data" Type="UInt">62</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[20].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[20].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[20].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[21].Address" Type="UInt">21</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[21].Data" Type="UInt">254</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[21].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[21].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[21].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[22].Address" Type="UInt">22</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[22].Data" Type="UInt">223</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[22].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[22].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[22].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[23].Address" Type="UInt">23</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[23].Data" Type="UInt">31</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[23].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[23].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[23].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[24].Address" Type="UInt">24</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[24].Data" Type="UInt">63</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[24].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[24].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[24].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[25].Address" Type="UInt">25</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[25].Data" Type="UInt">32</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[25].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[25].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[25].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[26].Address" Type="UInt">26</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[26].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[26].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[26].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[26].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[27].Address" Type="UInt">27</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[27].Data" Type="UInt">9</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[27].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[27].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[27].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[28].Address" Type="UInt">28</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[28].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[28].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[28].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[28].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[29].Address" Type="UInt">29</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[29].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[29].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[29].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[29].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[3].Address" Type="UInt">3</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[3].Data" Type="UInt">69</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[3].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[3].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[3].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[30].Address" Type="UInt">30</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[30].Data" Type="UInt">9</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[30].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[30].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[30].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[31].Address" Type="UInt">31</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[31].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[31].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[31].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[31].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[32].Address" Type="UInt">32</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[32].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[32].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[32].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[32].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[33].Address" Type="UInt">33</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[33].Data" Type="UInt">9</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[33].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[33].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[33].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[34].Address" Type="UInt">34</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[34].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[34].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[34].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[34].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[35].Address" Type="UInt">35</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[35].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[35].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[35].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[35].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[36].Address" Type="UInt">36</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[36].Data" Type="UInt">9</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[36].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[36].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[36].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[37].Address" Type="UInt">37</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[37].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[37].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[37].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[37].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[38].Address" Type="UInt">38</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[38].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[38].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[38].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[38].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[39].Address" Type="UInt">39</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[39].Data" Type="UInt">9</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[39].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[39].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[39].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[4].Address" Type="UInt">4</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[4].Data" Type="UInt">18</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[4].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[4].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[4].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[40].Address" Type="UInt">40</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[40].Data" Type="UInt">192</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[40].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[40].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[40].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[41].Address" Type="UInt">41</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[41].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[41].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[41].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[41].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[42].Address" Type="UInt">42</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[42].Data" Type="UInt">249</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[42].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[42].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[42].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[43].Address" Type="UInt">43</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[43].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[43].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[43].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[43].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[44].Address" Type="UInt">44</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[44].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[44].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[44].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[44].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[45].Address" Type="UInt">45</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[45].Data" Type="UInt">49</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[45].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[45].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[45].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[46].Address" Type="UInt">46</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[46].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[46].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[46].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[46].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[47].Address" Type="UInt">47</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[47].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[47].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[47].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[47].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[48].Address" Type="UInt">48</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[48].Data" Type="UInt">49</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[48].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[48].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[48].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[49].Address" Type="UInt">49</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[49].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[49].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[49].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[49].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[5].Address" Type="UInt">5</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[5].Data" Type="UInt">255</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[5].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[5].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[5].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[50].Address" Type="UInt">50</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[50].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[50].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[50].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[50].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[51].Address" Type="UInt">51</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[51].Data" Type="UInt">49</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[51].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[51].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[51].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[52].Address" Type="UInt">52</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[52].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[52].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[52].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[52].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[53].Address" Type="UInt">53</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[53].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[53].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[53].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[53].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[54].Address" Type="UInt">54</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[54].Data" Type="UInt">49</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[54].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[54].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[54].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[55].Address" Type="UInt">55</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[55].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[55].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[55].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[55].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[56].Address" Type="UInt">56</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[56].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[56].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[56].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[56].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[57].Address" Type="UInt">131</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[57].Data" Type="UInt">31</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[57].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[57].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[57].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[58].Address" Type="UInt">132</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[58].Data" Type="UInt">2</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[58].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[58].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[58].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[59].Address" Type="UInt">138</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[59].Data" Type="UInt">15</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[59].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[59].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[59].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[6].Address" Type="UInt">6</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[6].Data" Type="UInt">63</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[6].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[6].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[6].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[60].Address" Type="UInt">139</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[60].Data" Type="UInt">255</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[60].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[60].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[60].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[61].Address" Type="UInt">140</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[61].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[61].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[61].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[61].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[62].Address" Type="UInt">141</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[62].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[62].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[62].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[62].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[63].Address" Type="UInt">142</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[63].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[63].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[63].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[63].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[64].Address" Type="UInt">143</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[64].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[64].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[64].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[64].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[65].Address" Type="UInt">144</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[65].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[65].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[65].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[65].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[66].Address" Type="UInt">136</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[66].Data" Type="UInt">64</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[66].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[66].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[66].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[7].Address" Type="UInt">7</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[7].Data" Type="UInt">58</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[7].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[7].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[7].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[8].Address" Type="UInt">8</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[8].Data" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[8].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[8].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[8].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[9].Address" Type="UInt">9</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[9].Data" Type="UInt">192</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[9].Mask" Type="UInt">65535</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[9].Operation" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.RegisterSequenceContainer[2].RegisterSequence[9].WaitTime" Type="UInt">0</Property>
+			<Property Name="NI.LV.FPGA.RIO.659XR.POSC.Version" Type="UInt">1</Property>
+			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+			<Property Name="Resource Name" Type="Str"></Property>
+			<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
+			<Property Name="SWEmulationVIPath" Type="Path"></Property>
+			<Property Name="Target Class" Type="Str">PXIe-7902R</Property>
+			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
+			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
+			<Item Name="Resources" Type="Folder">
+				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
+					<Property Name="FPGA.PersistentID" Type="Str">{5C06D95B-330B-46E2-B068-282D5C62F960}</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">40 MHz Onboard Clock</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">Clk40</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+				</Item>
+				<Item Name="200 MHz Clock" Type="FPGA Base Clock">
+					<Property Name="FPGA.PersistentID" Type="Str">{5E59E60C-EFB1-420A-8CD3-CC78EA896187}</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">PllClk200</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">200000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">200000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">200000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">200 MHz Clock</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">PllClk200</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+				</Item>
+				<Item Name="DRAM Clock" Type="FPGA Base Clock">
+					<Property Name="FPGA.PersistentID" Type="Str">{A5866628-BB04-4AB8-A528-E54996A378D6}</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=DRAM Clock;TopSignalConnect=DramClkUser;ClockSignalName=DramClkUser;MinFreq=175000000.000000;MaxFreq=175000000.000000;VariableFreq=0;NomFreq=175000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">DramClkUser</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">175000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">175000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">175000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">DRAM Clock</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">DramClkUser</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+				</Item>
+				<Item Name="DRAM_FIFO0_33554432" Type="FPGA Memory Block">
+					<Property Name="FPGA.PersistentID" Type="Str">{97B62CF8-21A5-4D0B-880A-54F797FDEF4D}</Property>
+					<Property Name="fullEmulation" Type="Bool">false</Property>
+					<Property Name="Memory Latency" Type="UInt">2</Property>
+					<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">33554432</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">10</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.DramGrantTime" Type="UInt">50</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
+					<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
+					<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">1</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">1</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">33554432</Property>
+					<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">3</Property>
+					<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2Persist Memory ValuesFALSE;</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
+					<Property Name="Type Descriptor" Type="Str">1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</Property>
+				</Item>
+				<Item Name="DMA from Host" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1119</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">2</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">13</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{812F8ECF-A6D9-4DD6-B2B8-BBB29F565C2D}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">16</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Type" Type="UInt">1</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
+				</Item>
+				<Item Name="DMA to Host" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">2</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">13</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{E2DB5120-1A19-4189-BCD6-E158F325FD44}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">16</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Type" Type="UInt">2</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
+				</Item>
+				<Item Name="P2P Reader" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1119</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">2</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">13</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{9EA46C7F-9750-420E-A365-365D52C6182F}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">16</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Type" Type="UInt">3</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
+				</Item>
+				<Item Name="P2P Writer" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">2</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">13</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{5F0E3900-B175-4359-B5FE-C25E2CDBC526}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">16</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Type" Type="UInt">4</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
+				</Item>
+			</Item>
+			<Item Name="7902R-DRAM-Bank0" Type="FPGA Component Level IP">
+				<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str"></Property>
+				<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
+				<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">7902R-DRAM-Bank0</Property>
+				<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
+				<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
+				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+				<Property Name="NI.SortType" Type="Int">0</Property>
+			</Item>
+			<Item Name="7902R IO Socket" Type="FPGA Component Level IP">
+				<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str"></Property>
+				<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
+				<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">7902R IO Socket</Property>
+				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+				<Property Name="NI.SortType" Type="Int">0</Property>
+			</Item>
+			<Item Name="Dependencies" Type="Dependencies"/>
+			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

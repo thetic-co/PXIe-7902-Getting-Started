@@ -8,9 +8,12 @@ The example project provided by National Instruments (NI\Emerson) is suited to t
 
 ### Key Differences between the PXIe-791x and the PXIe-7902
 
-| Category | PXIe-791x           | PXIe-7902          |
-| -------- | ------------------- | ------------------ |
-| DRAM     | 4GB (2 Banks x 2GB) | 2GB (1 Bank x 2GB) |
+| Category                  | PXIe-791x           | PXIe-7902          |
+| ------------------------- | ------------------- | ------------------ |
+| DRAM                      | 4GB (2 Banks x 2GB) | 2GB (1 Bank x 2GB) |
+| DRAM Max Data Width       | 256                 | 512                |
+| Top-level clock (default) | 80 MHz              | 40 MHz             |
+| PXIe_Clk100               | Present             | Not Present        |
 
 ### Original Project Location
 
