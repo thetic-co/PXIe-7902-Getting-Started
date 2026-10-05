@@ -4564,6 +4564,8 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/eng/Downloads/PXIe-7902-Getting-Started/src/PXIe-791X Getting Started modified for 7902/FPGA Bitfiles/PXIe-7902_Getting_Started.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/PXIe-7902_Getting_Started.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/eng/Downloads/PXIe-7902-Getting-Started/src/PXIe-791X Getting Started modified for 7902/PXIe-791X Getting Started modified for 7902.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
