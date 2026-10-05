@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"                 ?>
+<Bitfile>
+	<BitfileVersion>4.0</BitfileVersion>
+	<Documentation>
+		  <BuildSpecVersion/>
+		  <BuildSpecDescription/>
+	</Documentation>
+	<SignatureRegister>1E92A05D1035E2DE543541CAA29B9FB6</SignatureRegister>
+	<SignatureGuids>619C2197F4A38FFFC8EF89D977EAA2A2</SignatureGuids>
+	<SignatureNames>2F3960D7A63F004CBD60E47179286F94</SignatureNames>
+	<TimeStamp/>
+	<CompilationStatus/>
+	<BitstreamVersion>2</BitstreamVersion>
+	<VI>
+		  <Name>791X Coprocessor Getting Started (FPGA).vi</Name>
+		  <RegisterList>
+			  <Register>
+				    <Name>DRAM FIFO Status</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>true</Indicator>
+				    <Datatype>
+					    <Cluster>
+						      <Name>DRAM FIFO Status</Name>
+						      <TypeList>
+							      <U32>
+								        <Name>elements in 'to DRAM queue'</Name>
+							</U32>
+							      <U32>
+								        <Name>elements in 'from DRAM queue'</Name>
+							</U32>
+							      <U32>
+								        <Name>elements in DRAM</Name>
+							</U32>
+							      <Boolean>
+								        <Name>DRAM full</Name>
+							</Boolean>
+							      <Boolean>
+								        <Name>DRAM empty</Name>
+							</Boolean>
+						</TypeList>
+					</Cluster>
+				</Datatype>
+				    <FlattenedType>130080000000000600214007001B656C656D656E747320696E2027746F204452414D2071756575652700234007001D656C656D656E747320696E202766726F6D204452414D20717565756527001740070010656C656D656E747320696E204452414D00000E4021094452414D2066756C6C001040210A4452414D20656D70747900005D00F10000000000000002194452414D204649464F20763220465047412E6C76636C617373144452414D204649464F205374617475732E63746C00264050000500000001000200030004104452414D204649464F205374617475730000010005000000000000000000000000000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>0</Offset>
+				    <SizeInBits>98</SizeInBits>
+				    <Class>30</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath>C:\Program Files (x86)\National Instruments\LabVIEW 2017\instr.lib\FlexRIO\DRAM FIFO\v2\FPGA\DRAM FIFO\DRAM FIFO Status.ctl</TypedefPath>
+				    <TypedefRelativePath>&lt;instrlib&gt;:\FlexRIO\DRAM FIFO\v2\FPGA\DRAM FIFO\DRAM FIFO Status.ctl</TypedefRelativePath>
+				    <ID>12</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList>
+					    <SubControl>
+						      <Name>elements in 'to DRAM queue'</Name>
+						      <FlattenedType>170080000000000100214007001B656C656D656E747320696E2027746F204452414D20717565756527000100000000000000000000</FlattenedType>
+						      <ClusterInformation>
+							      <NameHierarchy>
+								        <Name>DRAM FIFO Status</Name>
+								        <Name>elements in 'to DRAM queue'</Name>
+							</NameHierarchy>
+							      <ItemOrder>
+								        <Item>12</Item>
+								        <Item>0</Item>
+							</ItemOrder>
+						</ClusterInformation>
+						      <TypedefPath/>
+						      <TypedefRelativePath/>
+					</SubControl>
+					    <SubControl>
+						      <Name>elements in 'from DRAM queue'</Name>
+						      <FlattenedType>170080000000000100234007001D656C656D656E747320696E202766726F6D204452414D20717565756527000100000000000000000000</FlattenedType>
+						      <ClusterInformation>
+							      <NameHierarchy>
+								        <Name>DRAM FIFO Status</Name>
+								        <Name>elements in 'from DRAM queue'</Name>
+							</NameHierarchy>
+							      <ItemOrder>
+								        <Item>12</Item>
+								        <Item>1</Item>
+							</ItemOrder>
+						</ClusterInformation>
+						      <TypedefPath/>
+						      <TypedefRelativePath/>
+					</SubControl>
+					    <SubControl>
+						      <Name>elements in DRAM</Name>
+						      <FlattenedType>1700800000000001001740070010656C656D656E747320696E204452414D00000100000000000000000000</FlattenedType>
+						      <ClusterInformation>
+							      <NameHierarchy>
+								        <Name>DRAM FIFO Status</Name>
+								        <Name>elements in DRAM</Name>
+							</NameHierarchy>
+							      <ItemOrder>
+								        <Item>12</Item>
+								        <Item>2</Item>
+							</ItemOrder>
+						</ClusterInformation>
+						      <TypedefPath/>
+						      <TypedefRelativePath/>
+					</SubControl>
+					    <SubControl>
+						      <Name>DRAM full</Name>
+						      <FlattenedType>1700800000000001000E4021094452414D2066756C6C000100000000000000</FlattenedType>
+						      <ClusterInformation>
+							      <NameHierarchy>
+								        <Name>DRAM FIFO Status</Name>
+								        <Name>DRAM full</Name>
+							</NameHierarchy>
+							      <ItemOrder>
+								        <Item>12</Item>
+								        <Item>3</Item>
+							</ItemOrder>
+						</ClusterInformation>
+						      <TypedefPath/>
+						      <TypedefRelativePath/>
+					</SubControl>
+					    <SubControl>
+						      <Name>DRAM empty</Name>
+						      <FlattenedType>1700800000000001001040210A4452414D20656D70747900000100000000000000</FlattenedType>
+						      <ClusterInformation>
+							      <NameHierarchy>
+								        <Name>DRAM FIFO Status</Name>
+								        <Name>DRAM empty</Name>
+							</NameHierarchy>
+							      <ItemOrder>
+								        <Item>12</Item>
+								        <Item>4</Item>
+							</ItemOrder>
+						</ClusterInformation>
+						      <TypedefPath/>
+						      <TypedefRelativePath/>
+					</SubControl>
+				</SubControlList>
+			</Register>
+			  <Register>
+				    <Name>read grant time</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <U16>
+						      <Name>read grant time</Name>
+					</U16>
+				</Datatype>
+				    <FlattenedType>130080000000000100154006000F72656164206772616E742074696D6500010000006400000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>6</Offset>
+				    <SizeInBits>16</SizeInBits>
+				    <Class>18</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>11</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>write grant time</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <U16>
+						      <Name>write grant time</Name>
+					</U16>
+				</Datatype>
+				    <FlattenedType>13008000000000010017400600107772697465206772616E742074696D650000010000006400000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>10</Offset>
+				    <SizeInBits>16</SizeInBits>
+				    <Class>18</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>10</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>SW Trigger</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <Boolean>
+						      <Name>SW Trigger</Name>
+					</Boolean>
+				</Datatype>
+				    <FlattenedType>1300800000000001001040210A5357205472696767657200000100000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>14</Offset>
+				    <SizeInBits>1</SizeInBits>
+				    <Class>8</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>1</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>stream.request state 0</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <EnumU8>
+						      <Name>stream.request state 0</Name>
+						      <StringList>
+							      <String>Idle</String>
+							      <String>Finite Transfer</String>
+							      <String>Continuous</String>
+							      <String>Done</String>
+							      <String>Error</String>
+							      <String>Not Ready</String>
+							      <String>Cancel</String>
+						</StringList>
+					</EnumU8>
+				</Datatype>
+				    <FlattenedType>1300800000000001009A00F10000000000000002216E69496E7374722053747265616D696E6720763120436F6D6D6F6E2E6C766C69621053747265616D2053746174652E63746C005F401500070449646C650F46696E697465205472616E736665720A436F6E74696E756F757304446F6E65054572726F72094E6F742052656164790643616E63656C001673747265616D2E72657175657374207374617465203000000100000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>18</Offset>
+				    <SizeInBits>8</SizeInBits>
+				    <Class>35</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath>C:\Program Files (x86)\National Instruments\LabVIEW 2017\instr.lib\_niInstr\Streaming\v1\Common\Stream State.ctl</TypedefPath>
+				    <TypedefRelativePath>&lt;instrlib&gt;:\_niInstr\Streaming\v1\Common\Stream State.ctl</TypedefRelativePath>
+				    <ID>9</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>stream.num samples 0</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <U64>
+						      <Name>stream.num samples 0</Name>
+					</U64>
+				</Datatype>
+				    <FlattenedType>1300800000000001001B4008001473747265616D2E6E756D2073616D706C657320300000010000000000000000000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>20</Offset>
+				    <SizeInBits>64</SizeInBits>
+				    <Class>18</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>8</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>stream.metadata 0</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>true</Indicator>
+				    <Datatype>
+					    <U64>
+						      <Name>stream.metadata 0</Name>
+					</U64>
+				</Datatype>
+				    <FlattenedType>130080000000000100174008001173747265616D2E6D65746164617461203000010000000000000000000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>24</Offset>
+				    <SizeInBits>64</SizeInBits>
+				    <Class>18</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>7</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>stream.samples transferred 0</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>true</Indicator>
+				    <Datatype>
+					    <U64>
+						      <Name>stream.samples transferred 0</Name>
+					</U64>
+				</Datatype>
+				    <FlattenedType>130080000000000100234008001C73747265616D2E73616D706C6573207472616E7366657272656420300000010000000000000000000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>28</Offset>
+				    <SizeInBits>64</SizeInBits>
+				    <Class>18</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>6</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>stream.state 0</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>true</Indicator>
+				    <Datatype>
+					    <EnumU8>
+						      <Name>stream.state 0</Name>
+						      <StringList>
+							      <String>Idle</String>
+							      <String>Finite Transfer</String>
+							      <String>Continuous</String>
+							      <String>Done</String>
+							      <String>Error</String>
+							      <String>Not Ready</String>
+							      <String>Cancel</String>
+						</StringList>
+					</EnumU8>
+				</Datatype>
+				    <FlattenedType>1300800000000001009200F10000000000000002216E69496E7374722053747265616D696E6720763120436F6D6D6F6E2E6C766C69621053747265616D2053746174652E63746C0057401500070449646C650F46696E697465205472616E736665720A436F6E74696E756F757304446F6E65054572726F72094E6F742052656164790643616E63656C000E73747265616D2E7374617465203000000100000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>34</Offset>
+				    <SizeInBits>8</SizeInBits>
+				    <Class>35</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath>C:\Program Files (x86)\National Instruments\LabVIEW 2017\instr.lib\_niInstr\Streaming\v1\Common\Stream State.ctl</TypedefPath>
+				    <TypedefRelativePath>&lt;instrlib&gt;:\_niInstr\Streaming\v1\Common\Stream State.ctl</TypedefRelativePath>
+				    <ID>5</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>Data Source</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <EnumU16>
+						      <Name>Data Source</Name>
+						      <Typedef>
+							      <Name>Data Paths.ctl</Name>
+							      <AbsolutePath>C:\Users\nitest\Desktop\791x Coprocessor Getting Started\Controls\Data Paths.ctl</AbsolutePath>
+						</Typedef>
+						      <StringList>
+							      <String>DMA</String>
+							      <String>P2P</String>
+						</StringList>
+					</EnumU16>
+				</Datatype>
+				    <FlattenedType>1300800000000001003600F1D682DAD5000000010E446174612050617468732E63746C001F4016000203444D4103503250000B4461746120536F7572636500010000000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>38</Offset>
+				    <SizeInBits>16</SizeInBits>
+				    <Class>35</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath>C:\Users\nitest\Desktop\791x Coprocessor Getting Started\Controls\Data Paths.ctl</TypedefPath>
+				    <TypedefRelativePath>..\Controls\Data Paths.ctl</TypedefRelativePath>
+				    <ID>4</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>Data Source Trigger</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <EnumU16>
+						      <Name>Data Source Trigger</Name>
+						      <Typedef>
+							      <Name>Data Triggers.ctl</Name>
+							      <AbsolutePath>C:\Users\nitest\Desktop\791x Coprocessor Getting Started\Controls\Data Triggers.ctl</AbsolutePath>
+						</Typedef>
+						      <StringList>
+							      <String>Valid Data</String>
+							      <String>Software</String>
+						</StringList>
+					</EnumU16>
+				</Datatype>
+				    <FlattenedType>1300800000000001004D00F1D698E5940000000111446174612054726967676572732E63746C0033401600020A56616C6964204461746108536F66747761726500134461746120536F75726365205472696767657200010000000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>42</Offset>
+				    <SizeInBits>16</SizeInBits>
+				    <Class>35</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath>C:\Users\nitest\Desktop\791x Coprocessor Getting Started\Controls\Data Triggers.ctl</TypedefPath>
+				    <TypedefRelativePath>..\Controls\Data Triggers.ctl</TypedefRelativePath>
+				    <ID>3</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>Data Sink</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <EnumU16>
+						      <Name>Data Sink</Name>
+						      <Typedef>
+							      <Name>Data Paths.ctl</Name>
+							      <AbsolutePath>C:\Users\nitest\Desktop\791x Coprocessor Getting Started\Controls\Data Paths.ctl</AbsolutePath>
+						</Typedef>
+						      <StringList>
+							      <String>DMA</String>
+							      <String>P2P</String>
+						</StringList>
+					</EnumU16>
+				</Datatype>
+				    <FlattenedType>1300800000000001003400F1D682DAD5000000010E446174612050617468732E63746C001D4016000203444D41035032500009446174612053696E6B00010000000000000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>46</Offset>
+				    <SizeInBits>16</SizeInBits>
+				    <Class>35</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath>C:\Users\nitest\Desktop\791x Coprocessor Getting Started\Controls\Data Paths.ctl</TypedefPath>
+				    <TypedefRelativePath>..\Controls\Data Paths.ctl</TypedefRelativePath>
+				    <ID>2</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>Tab Control</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <EnumU32>
+						      <Name>Tab Control</Name>
+						      <StringList>
+							      <String>Data Flow Controls</String>
+							      <String>DRAM FIFO</String>
+						</StringList>
+					</EnumU32>
+				</Datatype>
+				    <FlattenedType>1300800000000001003140170002124461746120466C6F7720436F6E74726F6C73094452414D204649464F00000B54616220436F6E74726F6C000100000000000100000000</FlattenedType>
+				    <Grouping/>
+				    <Offset>48</Offset>
+				    <SizeInBits>32</SizeInBits>
+				    <Class>55</Class>
+				    <Internal>false</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>0</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>ViSignature</Name>
+				    <Hidden>true</Hidden>
+				    <Indicator>true</Indicator>
+				    <Datatype>
+					    <Array>
+						      <Name/>
+						      <Size>4</Size>
+						      <Type>
+							      <U32>
+								        <Name/>
+							</U32>
+						</Type>
+					</Array>
+				</Datatype>
+				    <FlattenedType/>
+				    <Grouping/>
+				    <Offset>196596</Offset>
+				    <SizeInBits>128</SizeInBits>
+				    <Class>0</Class>
+				    <Internal>true</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>0</ID>
+				    <Bidirectional>false</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>DiagramReset</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <U32>
+						      <Name/>
+					</U32>
+				</Datatype>
+				    <FlattenedType/>
+				    <Grouping/>
+				    <Offset>196604</Offset>
+				    <SizeInBits>32</SizeInBits>
+				    <Class>0</Class>
+				    <Internal>true</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>0</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>ViControl</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <U32>
+						      <Name/>
+					</U32>
+				</Datatype>
+				    <FlattenedType/>
+				    <Grouping/>
+				    <Offset>196600</Offset>
+				    <SizeInBits>32</SizeInBits>
+				    <Class>0</Class>
+				    <Internal>true</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>0</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>InterruptEnable</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <U32>
+						      <Name/>
+					</U32>
+				</Datatype>
+				    <FlattenedType/>
+				    <Grouping/>
+				    <Offset>196580</Offset>
+				    <SizeInBits>32</SizeInBits>
+				    <Class>0</Class>
+				    <Internal>true</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>0</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>InterruptMask</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <U32>
+						      <Name/>
+					</U32>
+				</Datatype>
+				    <FlattenedType/>
+				    <Grouping/>
+				    <Offset>196588</Offset>
+				    <SizeInBits>32</SizeInBits>
+				    <Class>0</Class>
+				    <Internal>true</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>0</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+			  <Register>
+				    <Name>InterruptStatus</Name>
+				    <Hidden>false</Hidden>
+				    <Indicator>false</Indicator>
+				    <Datatype>
+					    <U32>
+						      <Name/>
+					</U32>
+				</Datatype>
+				    <FlattenedType/>
+				    <Grouping/>
+				    <Offset>196592</Offset>
+				    <SizeInBits>32</SizeInBits>
+				    <Class>0</Class>
+				    <Internal>true</Internal>
+				    <TypedefPath/>
+				    <TypedefRelativePath/>
+				    <ID>0</ID>
+				    <Bidirectional>true</Bidirectional>
+				    <Synchronous>false</Synchronous>
+				    <MechanicalAction>Switch When Pressed</MechanicalAction>
+				    <AccessMayTimeout>false</AccessMayTimeout>
+				    <RegisterNode>false</RegisterNode>
+				    <SubControlList/>
+			</Register>
+		</RegisterList>
+		  <Icon>
+			  <ImageType>0</ImageType>
+			  <ImageDepth>8</ImageDepth>
+			  <Image>////////////////////////////////////////////NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1//81NTU1NTU1Nf///zU1/zU1Nf81NTU1NTU1NTU1NTX//zU1NTU1NTU1NTX/Nf81/zX//zU1NTU1NTU1NTU1Nf//NTU1NTU1NTU1/zU1////NTX/Nf81/zU1NTU1NTU1//81NTU1NTU1NTX/NTU1Nf81Nf81Nf81NTU1NTU1NTX//zU1NTU1NTU1Nf81NTX/NTU1/zX/Nf81NTU1NTU1Nf//NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1/////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAArACsAKwArACsAKwArAAAAAAAAAAAAP//AAAAAAAAAKysrKysrKysrKysrKysrAAAAAAAAAAA//8AAAAAAAAAAKw1NTU1NTU1NTU1NawAAAAAAAAAAAD//wAAAAAAAACsrDWtrTU1NTU1NTU1rKwAAAAAAAAAAP//AAAAAAAAAACsNa0Fra01NTU1NTWsAAAAAAAAAAAA//8AAAAAAAAArCMjrQUFBa2tNTU1NaysAAAAAAAAAAD//wAAAAAAAAAArDWtBQX/BQWtrTU1rAAAAAAAAAAAAP//AAAAAAAAAKysNa0F////BQUFIyOsrAAAAAAAAAAA//8AAAAAAAAAAKw1rQUF/wUFra01NawAAAAAAAAAAAD//wAAAAAAAACs0tKtBQUFra01NTU1rKwAAAAAAAAAAP//AAAAAAAAAACsNa0Fra01NTU1NTWsAAAAAAAAAAAA//8AAAAAAAAArKw1ra01NTU1NTU1NaysAAAAAAAAAAD//wAAAAAAAAAArDU1NTU1NTU1NTU1rAAAAAAAAAAAAP//AAAAAAAAAKysrKysrKysrKysrKysrAAAAAAAAAAA//8AAAAAAAAAAKwArACsAKwArACsAKwAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////w==</Image>
+			  <Mask>//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8=</Mask>
+			  <Colors>AP///wD//8wA//+ZAP//ZgD//zMA//8AAP/M/wD/zMwA/8yZAP/MZgD/zDMA/8wAAP+Z/wD/mcwA/5mZAP+ZZgD/mTMA/5kAAP9m/wD/ZswA/2aZAP9mZgD/ZjMA/2YAAP8z/wD/M8wA/zOZAP8zZgD/MzMA/zMAAP8A/wD/AMwA/wCZAP8AZgD/ADMA/wAAAMz//wDM/8wAzP+ZAMz/ZgDM/zMAzP8AAMzM/wDMzMwAzMyZAMzMZgDMzDMAzMwAAMyZ/wDMmcwAzJmZAMyZZgDMmTMAzJkAAMxm/wDMZswAzGaZAMxmZgDMZjMAzGYAAMwz/wDMM8wAzDOZAMwzZgDMMzMAzDMAAMwA/wDMAMwAzACZAMwAZgDMADMAzAAAAJn//wCZ/8wAmf+ZAJn/ZgCZ/zMAmf8AAJnM/wCZzMwAmcyZAJnMZgCZzDMAmcwAAJmZ/wCZmcwAmZmZAJmZZgCZmTMAmZkAAJlm/wCZZswAmWaZAJlmZgCZZjMAmWYAAJkz/wCZM8wAmTOZAJkzZgCZMzMAmTMAAJkA/wCZAMwAmQCZAJkAZgCZADMAmQAAAGb//wBm/8wAZv+ZAGb/ZgBm/zMAZv8AAGbM/wBmzMwAZsyZAGbMZgBmzDMAZswAAGaZ/wBmmcwAZpmZAGaZZgBmmTMAZpkAAGZm/wBmZswAZmaZAGZmZgBmZjMAZmYAAGYz/wBmM8wAZjOZAGYzZgBmMzMAZjMAAGYA/wBmAMwAZgCZAGYAZgBmADMAZgAAADP//wAz/8wAM/+ZADP/ZgAz/zMAM/8AADPM/wAzzMwAM8yZADPMZgAzzDMAM8wAADOZ/wAzmcwAM5mZADOZZgAzmTMAM5kAADNm/wAzZswAM2aZADNmZgAzZjMAM2YAADMz/wAzM8wAMzOZADMzZgAzMzMAMzMAADMA/wAzAMwAMwCZADMAZgAzADMAMwAAAAD//wAA/8wAAP+ZAAD/ZgAA/zMAAP8AAADM/wAAzMwAAMyZAADMZgAAzDMAAMwAAACZ/wAAmcwAAJmZAACZZgAAmTMAAJkAAABm/wAAZswAAGaZAABmZgAAZjMAAGYAAAAz/wAAM8wAADOZAAAzZgAAMzMAADMAAAAA/wAAAMwAAACZAAAAZgAAADMA7gAAAN0AAAC7AAAAqgAAAIgAAAB3AAAAVQAAAEQAAAAiAAAAEQAAAADuAAAA3QAAALsAAACqAAAAiAAAAHcAAABVAAAARAAAACIAAAARAAAAAO4AAADdAAAAuwAAAKoAAACIAAAAdwAAAFUAAABEAAAAIgAAABEA7u7uAN3d3QC7u7sAqqqqAIiIiAB3d3cAVVVVAERERAAiIiIAERERAAAAAA==</Colors>
+			  <Rectangle>
+				    <Left>0</Left>
+				    <Top>0</Top>
+				    <Right>32</Right>
+				    <Bottom>32</Bottom>
+			</Rectangle>
+		</Icon>
+	</VI>
+	<Project>
+		  <TargetClass>PXIe-7915</TargetClass>
+		  <AutoRunWhenDownloaded>false</AutoRunWhenDownloaded>
+		  <CompilationResultsTree>
+      <CompilationResults>
+       <NiFpga>
+          <BaseAddressOnDevice>0</BaseAddressOnDevice>
+          <DmaChannelAllocationList>
+           <Channel name="P2P Writer">
+              <BaseAddressTag>NiLvFpgaP2P Writer</BaseAddressTag>
+              <ControlSet>0</ControlSet>
+              <DataType>
+               <Delta>1.000000000000000000000000000000000000000000000000000000</Delta>
+               <IntegerWordLength>16</IntegerWordLength>
+               <Maximum>32767.00000000000000000000000000000000000000000000000000</Maximum>
+               <Minimum>-32768.00000000000000000000000000000000000000000000000000</Minimum>
+               <Signed>true</Signed>
+               <SubType>I16</SubType>
+               <WordLength>16</WordLength>
+            </DataType>
+              <Implementation>niFpgaPeerToPeerWriter</Implementation>
+              <Number>0</Number>
+              <NumberOfElements>1023</NumberOfElements>
+              <UserVisible>true</UserVisible>
+         </Channel>
+           <Channel name="P2P Reader">
+              <BaseAddressTag>NiLvFpgaP2P Reader</BaseAddressTag>
+              <ControlSet>1</ControlSet>
+              <DataType>
+               <Delta>1.000000000000000000000000000000000000000000000000000000</Delta>
+               <IntegerWordLength>16</IntegerWordLength>
+               <Maximum>32767.00000000000000000000000000000000000000000000000000</Maximum>
+               <Minimum>-32768.00000000000000000000000000000000000000000000000000</Minimum>
+               <Signed>true</Signed>
+               <SubType>I16</SubType>
+               <WordLength>16</WordLength>
+            </DataType>
+              <Implementation>niFpgaPeerToPeerReader</Implementation>
+              <Number>1</Number>
+              <NumberOfElements>1119</NumberOfElements>
+              <UserVisible>true</UserVisible>
+              <WriteWindowAddressTag>NiLvFpgaP2P ReaderWriteWindow</WriteWindowAddressTag>
+              <WriteWindowSize>4096</WriteWindowSize>
+         </Channel>
+           <Channel name="DMA to Host">
+              <BaseAddressTag>NiLvFpgaDMA to Host</BaseAddressTag>
+              <ControlSet>2</ControlSet>
+              <DataType>
+               <Delta>1.000000000000000000000000000000000000000000000000000000</Delta>
+               <IntegerWordLength>16</IntegerWordLength>
+               <Maximum>32767.00000000000000000000000000000000000000000000000000</Maximum>
+               <Minimum>-32768.00000000000000000000000000000000000000000000000000</Minimum>
+               <Signed>true</Signed>
+               <SubType>I16</SubType>
+               <WordLength>16</WordLength>
+            </DataType>
+              <Direction>TargetToHost</Direction>
+              <Implementation>niFpgaTargetToHost</Implementation>
+              <Number>2</Number>
+              <NumberOfElements>1023</NumberOfElements>
+              <UserVisible>true</UserVisible>
+         </Channel>
+           <Channel name="DMA from Host">
+              <BaseAddressTag>NiLvFpgaDMA from Host</BaseAddressTag>
+              <ControlSet>3</ControlSet>
+              <DataType>
+               <Delta>1.000000000000000000000000000000000000000000000000000000</Delta>
+               <IntegerWordLength>16</IntegerWordLength>
+               <Maximum>32767.00000000000000000000000000000000000000000000000000</Maximum>
+               <Minimum>-32768.00000000000000000000000000000000000000000000000000</Minimum>
+               <Signed>true</Signed>
+               <SubType>I16</SubType>
+               <WordLength>16</WordLength>
+            </DataType>
+              <Direction>HostToTarget</Direction>
+              <Implementation>niFpgaHostToTarget</Implementation>
+              <Number>3</Number>
+              <NumberOfElements>1119</NumberOfElements>
+              <UserVisible>true</UserVisible>
+         </Channel>
+      </DmaChannelAllocationList>
+          <RegisterBlockList>
+           <RegisterBlock name="NiLvFpgaP2P Writer">
+              <Offset>0x3FFC0</Offset>
+         </RegisterBlock>
+           <RegisterBlock name="NiLvFpgaP2P Reader">
+              <Offset>0x3FF80</Offset>
+         </RegisterBlock>
+           <RegisterBlock name="NiLvFpgaDMA to Host">
+              <Offset>0x3FF40</Offset>
+         </RegisterBlock>
+           <RegisterBlock name="NiLvFpgaDMA from Host">
+              <Offset>0x3FF00</Offset>
+         </RegisterBlock>
+           <RegisterBlock name="NiLvFpgaP2P ReaderWriteWindow">
+              <Offset>0xBF000</Offset>
+         </RegisterBlock>
+      </RegisterBlockList>
+          <UsedBaseClockList>
+           <BaseClock name="Dram0ClkUser">
+         </BaseClock>
+           <BaseClock name="Dram0ClkSocket">
+         </BaseClock>
+           <BaseClock name="Dram1ClkUser">
+         </BaseClock>
+           <BaseClock name="Dram1ClkSocket">
+         </BaseClock>
+           <BaseClock name="DmaClk">
+         </BaseClock>
+           <BaseClock name="BusClk">
+         </BaseClock>
+           <BaseClock name="ReliableClkIn">
+         </BaseClock>
+           <BaseClock name="DRAM Clock">
+         </BaseClock>
+           <BaseClock name="80 MHz Clock">
+         </BaseClock>
+           <BaseClock name="PXIe_Clk100">
+         </BaseClock>
+      </UsedBaseClockList>
+          <version>1</version>
+   </NiFpga>
+       <TargetSpecificData>
+          <IOModuleID>0xFFFFFFFF</IOModuleID>
+          <RoutingAliases>
+           <Count>0</Count>
+      </RoutingAliases>
+          <Target>PXIe-7915R</Target>
+   </TargetSpecificData>
+</CompilationResults> </CompilationResultsTree>
+		  <MultipleUserClocks>true</MultipleUserClocks>
+		  <AllowImplicitEnableRemoval>false</AllowImplicitEnableRemoval>
+	</Project>
+	<ClientData/>
+	<BitstreamMD5>b2b286842370f14c288dce019724fc33</BitstreamMD5>
+	<Bitstream>Removed to save space</Bitstream>
+</Bitfile>
