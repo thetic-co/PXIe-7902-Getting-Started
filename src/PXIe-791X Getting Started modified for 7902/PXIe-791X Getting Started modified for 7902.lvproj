@@ -3395,8 +3395,6 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 					<Item Name="niInstr Streaming v1 Common.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Streaming/v1/Common/niInstr Streaming v1 Common.lvlib"/>
 					<Item Name="niInstr Streaming v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Streaming/v1/FPGA/niInstr Streaming v1 FPGA.lvlib"/>
 				</Item>
-				<Item Name="Data Paths.ctl" Type="VI" URL="../Controls/Data Paths.ctl"/>
-				<Item Name="Data Triggers.ctl" Type="VI" URL="../Controls/Data Triggers.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="PXIe-791X Getting Started" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -3441,8 +3439,8 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 		</Item>
 		<Item Name="Coprocessor FPGA (PXIe-7902)" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
-			<Property Name="configString.guid" Type="Str">{5C06D95B-330B-46E2-B068-282D5C62F960}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{5E59E60C-EFB1-420A-8CD3-CC78EA896187}ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{5F0E3900-B175-4359-B5FE-C25E2CDBC526}"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{812F8ECF-A6D9-4DD6-B2B8-BBB29F565C2D}"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{8CBD3E7F-29DB-4332-A615-327BC6EE7422}Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2{9EA46C7F-9750-420E-A365-365D52C6182F}"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{A5866628-BB04-4AB8-A528-E54996A378D6}ResourceName=DRAM Clock;TopSignalConnect=DramClkUser;ClockSignalName=DramClkUser;MinFreq=175000000.000000;MaxFreq=175000000.000000;VariableFreq=0;NomFreq=175000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2DB5120-1A19-4189-BCD6-E158F325FD44}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"PXIe-7902R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7902RFPGA_TARGET_FAMILYVIRTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-			<Property Name="configString.name" Type="Str">200 MHz ClockResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DMA from Host"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"DMA to Host"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"DRAM ClockResourceName=DRAM Clock;TopSignalConnect=DramClkUser;ClockSignalName=DramClkUser;MinFreq=175000000.000000;MaxFreq=175000000.000000;VariableFreq=0;NomFreq=175000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DRAM_FIFO0_33554432Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"P2P Writer"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"PXIe-7902R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7902RFPGA_TARGET_FAMILYVIRTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+			<Property Name="configString.guid" Type="Str">{5C06D95B-330B-46E2-B068-282D5C62F960}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{5E59E60C-EFB1-420A-8CD3-CC78EA896187}ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{5F0E3900-B175-4359-B5FE-C25E2CDBC526}"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{812F8ECF-A6D9-4DD6-B2B8-BBB29F565C2D}"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{97B62CF8-21A5-4D0B-880A-54F797FDEF4D}Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2{9EA46C7F-9750-420E-A365-365D52C6182F}"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{A5866628-BB04-4AB8-A528-E54996A378D6}ResourceName=DRAM Clock;TopSignalConnect=DramClkUser;ClockSignalName=DramClkUser;MinFreq=175000000.000000;MaxFreq=175000000.000000;VariableFreq=0;NomFreq=175000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E2DB5120-1A19-4189-BCD6-E158F325FD44}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"PXIe-7902R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7902RFPGA_TARGET_FAMILYVIRTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+			<Property Name="configString.name" Type="Str">200 MHzResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DMA from Host"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"DMA to Host"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"DRAM ClockResourceName=DRAM Clock;TopSignalConnect=DramClkUser;ClockSignalName=DramClkUser;MinFreq=175000000.000000;MaxFreq=175000000.000000;VariableFreq=0;NomFreq=175000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DRAM_FIFO0_33554432Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"P2P Writer"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"PXIe-7902R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7902RFPGA_TARGET_FAMILYVIRTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 			<Property Name="ForceCompileConfigUpdate" Type="Bool">true</Property>
 			<Property Name="Mode" Type="Int">0</Property>
 			<Property Name="NI.LV.FPGA.659XR.ActiveSerialIo.Valid" Type="Bool">true</Property>
@@ -3509,7 +3507,7 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 &lt;/DBL&gt;
 &lt;/Cluster&gt;
 </Property>
-			<Property Name="NI.LV.FPGA.659XR.ClockingPageHasBeenOpenedAtLeastOnce" Type="Bool">false</Property>
+			<Property Name="NI.LV.FPGA.659XR.ClockingPageHasBeenOpenedAtLeastOnce" Type="Bool">true</Property>
 			<Property Name="NI.LV.FPGA.659XR.IOConfigurationTab" Type="Str">&lt;Cluster&gt;
 &lt;Name&gt;IO Configuration Tab State&lt;/Name&gt;
 &lt;NumElts&gt;12&lt;/NumElts&gt;
@@ -4162,7 +4160,7 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				</Item>
-				<Item Name="200 MHz Clock" Type="FPGA Base Clock">
+				<Item Name="200 MHz" Type="FPGA Base Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{5E59E60C-EFB1-420A-8CD3-CC78EA896187}</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
@@ -4324,8 +4322,254 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 				<Property Name="NI.SortType" Type="Int">0</Property>
 			</Item>
-			<Item Name="Dependencies" Type="Dependencies"/>
-			<Item Name="Build Specifications" Type="Build"/>
+			<Item Name="PXIe-7902 Getting Started (FPGA).vi" Type="VI" URL="../FPGA/PXIe-7902 Getting Started (FPGA).vi">
+				<Property Name="BuildSpec" Type="Str">{6254E425-EE46-409A-91E8-1F7BCF7205C7}</Property>
+				<Property Name="configString.guid" Type="Str">{0233EE5A-5F58-456A-8176-5B5E0BF61F8F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source7;0;WriteMethodType=bool{05FD85EF-97A8-49F8-829C-79B0C695145A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source1;0;WriteMethodType=bool{076B131A-6916-4F13-AB08-B64C38447712}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source25;0;WriteMethodType=bool{079B6671-DFA5-4E48-B09F-E4767A77B983}ResourceName=80 MHz Clock;TopSignalConnect=PllClk80;ClockSignalName=PllClk80;MinFreq=80000000.000000;MaxFreq=80000000.000000;VariableFreq=0;NomFreq=80000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{09392282-A5DF-4AF1-8B25-45A57533E2D4}ResourceName=PXIe_Clk100;TopSignalConnect=PxieClk100;ClockSignalName=PxieClk100;MinFreq=100000000.000000;MaxFreq=100000000.000000;VariableFreq=0;NomFreq=100000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{0BFD8E3F-9614-4F3C-B835-D7A7DAE8A7EE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source3;0;WriteMethodType=bool{0F14445D-8D9B-43CB-8F08-6829F433D42A}"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{135B4F0C-6562-4D13-B28B-2C6F1710D3A0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source17;0;WriteMethodType=bool{1631B17A-716C-4E46-89D4-087E8DE5CB97}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{1CEEFD45-27D1-47F3-AD21-4A92F391225B}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination23;0;ReadMethodType=bool{1DBA270B-13B6-433B-97B5-D1E8BF84DB10}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination4;0;ReadMethodType=bool{1E2703F9-A19C-41C5-AAA1-C182431698C6}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination8;0;ReadMethodType=bool{1E6B3A0D-DD0F-4E6F-B839-1010177FC154}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination20;0;ReadMethodType=bool{2747F94D-45D5-4636-971C-D1CB20103F14}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source8;0;WriteMethodType=bool{27AD7052-7648-48B3-BEFE-A478EB1A95AF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Diagram Identity;0;WriteMethodType=
+&lt;Type&gt;
+   &lt;FXP&gt;
+      &lt;IntegerWordLength&gt;32&lt;/IntegerWordLength&gt;
+      &lt;Unsigned&gt;true&lt;/Unsigned&gt;
+      &lt;WordLength&gt;32&lt;/WordLength&gt;
+   &lt;/FXP&gt;
+&lt;/Type&gt;{28D89B38-70F8-4730-9827-4A2151C33D9B}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination28;0;ReadMethodType=bool{2C164AB7-D9C8-4119-8FE6-502E06F6F3EE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source31;0;WriteMethodType=bool{2E82B1BE-CE45-4C2D-9379-D85CAA451D8C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source18;0;WriteMethodType=bool{31CF3ED8-B585-4661-B082-F88AF430D01B}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Clip Identity;0;ReadMethodType=
+&lt;Type&gt;
+   &lt;FXP&gt;
+      &lt;IntegerWordLength&gt;8&lt;/IntegerWordLength&gt;
+      &lt;Unsigned&gt;true&lt;/Unsigned&gt;
+      &lt;WordLength&gt;8&lt;/WordLength&gt;
+   &lt;/FXP&gt;
+&lt;/Type&gt;{348BBFAA-36C5-4705-B8B0-F27F4A3C66D4}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination18;0;ReadMethodType=bool{3612F594-1367-46A5-BF1B-F81A2655FD91}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/aDestinationSyncPulse;0;ReadMethodType=bool{36AEA5EA-D347-4911-9390-B6EA9961498C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source29;0;WriteMethodType=bool{389DDE79-A135-4C78-B886-D5EA1143C457}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination5;0;ReadMethodType=bool{38A0AB58-7C55-4134-83AC-32ECC46C628F}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination17;0;ReadMethodType=bool{3E826916-1942-4E8A-AA26-1619050C7EF6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source28;0;WriteMethodType=bool{3FABFFF6-137A-4342-8136-82575F85CEBA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source11;0;WriteMethodType=bool{41C42D74-A417-4E29-8BBF-7C72D5B533C6}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination10;0;ReadMethodType=bool{444C581E-FA0C-467B-994B-F51D4D15D43A}"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{45D14084-1C9B-41D4-9B4D-DC7132D89FF1}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination16;0;ReadMethodType=bool{46FE5447-6253-4E40-8BD8-2162D0E26119}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination9;0;ReadMethodType=bool{4B63B958-3639-4B6A-8F6D-939E3D987DE2}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source5;0;WriteMethodType=bool{4EDA5321-3139-4894-A5C0-7157FC440A1B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source13;0;WriteMethodType=bool{539CCB0E-475F-4F53-A727-AD36AB7B1076}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source0;0;WriteMethodType=bool{55D2519A-6E6D-4136-803B-1E8998AABF52}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination25;0;ReadMethodType=bool{56A4A970-574E-4BA8-93FD-28EFC5BE7EA8}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination26;0;ReadMethodType=bool{56CD1F87-D0CA-4693-9569-5FF9CE39AE9F}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination30;0;ReadMethodType=bool{5F8B90CF-DCC5-45D5-9F0D-809C1B1DFE54}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source9;0;WriteMethodType=bool{6308C936-E9FA-4424-BBE6-BE532588195D}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination6;0;ReadMethodType=bool{6429A2A1-73A8-47D2-82A7-A61B4F57C769}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination19;0;ReadMethodType=bool{64EDB382-756E-4E85-AB74-581842CE8C80}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source14;0;WriteMethodType=bool{7048EA0B-E7DF-4E58-8664-AE9A96B158D1}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination13;0;ReadMethodType=bool{73A28C04-39EE-498A-8A41-DAE27ADC2268}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source30;0;WriteMethodType=bool{7B85E678-EA0A-4E86-AFF5-1979A10C0469}Actual Number of Elements=67108864;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000C402107426F6F6C65616E00124040000180000100000004646174610000010001000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank1;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2{7E1BFA3C-DBBB-4BEB-A4F8-5E41C335C6DF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source12;0;WriteMethodType=bool{7E6C33ED-F880-4502-B1D2-2D296816ACAB}ResourceName=DRAM Clock;TopSignalConnect=DramClkLvFpga;ClockSignalName=DramClkLvFpga;MinFreq=267000000.000000;MaxFreq=267000000.000000;VariableFreq=0;NomFreq=267000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{7EB3B933-96A8-4B17-ADC7-C6C8234CD43A}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination29;0;ReadMethodType=bool{84394914-E1B0-4EBE-B8D9-2DD9076F3695}NumberOfSyncRegistersForReadInProject=0;resource=/Routing/SignalList/TClk;0;ReadMethodType=bool{88D05070-533C-4633-9743-D6B645904E9B}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination12;0;ReadMethodType=bool{8958C3EB-0A78-460B-8CD4-0678F59851C2}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source15;0;WriteMethodType=bool{905F9255-D0B9-46DD-B1FD-B2A9B11CC3E5}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination22;0;ReadMethodType=bool{95898405-DC0F-4849-BA0F-985E95E16247}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source2;0;WriteMethodType=bool{9D36C5A2-0C58-4594-9BF3-077E72F6B3AA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source21;0;WriteMethodType=bool{A42D5E21-C8E9-48F3-9AF8-E1C431921005}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination27;0;ReadMethodType=bool{A44FCF37-8864-4BAA-82F8-BE83F2F308F0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source20;0;WriteMethodType=bool{A53ED793-6595-4420-B715-7ED32A1A015F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source27;0;WriteMethodType=bool{A7226525-9815-4913-898F-B0A23F86573D}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination7;0;ReadMethodType=bool{AA5849E4-8AB4-4B8F-9BBC-117522C36351}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source6;0;WriteMethodType=bool{BA47E03E-4B84-41DB-B0FA-A73A9F0E849C}Multiplier=2.000000;Divisor=1.000000{BA54A890-C0A5-4D43-BFD9-F8CFF1B41A60}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source24;0;WriteMethodType=bool{C060DEE8-DA35-407D-87E0-D387BB32A2CA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source10;0;WriteMethodType=bool{C1E05706-57C2-4D87-BA9C-76385C058958}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination2;0;ReadMethodType=bool{C3A48DE6-59DE-4784-AB88-E4BCFE412001}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination21;0;ReadMethodType=bool{C498FC4C-8D6D-45AF-B140-65F7C69146A0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source22;0;WriteMethodType=bool{D2C4B3F8-F894-4B30-8ADD-963E1BB222FE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source26;0;WriteMethodType=bool{D3A6C90D-224B-48A5-A369-93778EC4EB30}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination11;0;ReadMethodType=bool{D6EC6F41-E5F0-4CC0-9750-FFB442A42FEF}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination15;0;ReadMethodType=bool{DAAF8FC2-D377-4B43-A380-0D8AEB43D6B2}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source16;0;WriteMethodType=bool{DBBF9AD3-EF6F-4E89-B632-4F9DEF1589A7}1f8410e813fb09ddd9318367a60b6ba56bab44ce0bbc2bb5709d1166da4addeb6c7d3bf82b2d595ce374941da72de95d6d8318272da31428f7df7b158755148c&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;3&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kNumSourceSignals&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;32&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;32&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kNumDestinationSignals&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;32&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;32&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;kNumGpio&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;integer&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Clock Connections&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;DataClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;DataClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;500000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;1000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;80 MHz Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;SyncPulseClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;SyncPulseClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;100000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;100000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;PXIe_Clk100&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;PXIe_Clk100&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+{DDB226FF-F440-4DDC-824B-77E96AEE5217}"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{E20FBCCD-F5ED-4E1F-93F3-10F085537367}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination24;0;ReadMethodType=bool{E2124F9C-12DF-4685-96FA-178A656D25B4}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination31;0;ReadMethodType=bool{E582C6D5-7A7D-4E19-83FE-9C5A49A209AE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source19;0;WriteMethodType=bool{E87A8529-1B13-40AF-8F8D-EF47C0072DFA}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination0;0;ReadMethodType=bool{ED8C3E23-7633-4317-8E08-745739FC994F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source4;0;WriteMethodType=bool{F3026196-0E6A-42D3-8AF3-4B835E2B8DCB}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination14;0;ReadMethodType=bool{F47389AD-DF23-4EF8-A4F1-1B9D7C0365FF}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination1;0;ReadMethodType=bool{F8270735-CA68-4013-9001-57B29DD56B30}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination3;0;ReadMethodType=bool{FC28462F-42CB-422C-8810-06CE7C142209}Actual Number of Elements=67108864;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000C402107426F6F6C65616E00124040000180000100000004646174610000010001000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2{FC78DA16-1040-49ED-9182-57F76E16770D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source23;0;WriteMethodType=boolPXIe-7915/PllClk80/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7915FPGA_TARGET_FAMILYKINTEXUTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+				<Property Name="configString.name" Type="Str">200 MHzResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DMA from Host"ControlLogic=0;NumberOfElements=1119;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;DMA from Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"DMA to Host"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"DRAM ClockResourceName=DRAM Clock;TopSignalConnect=DramClkUser;ClockSignalName=DramClkUser;MinFreq=175000000.000000;MaxFreq=175000000.000000;VariableFreq=0;NomFreq=175000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DRAM_FIFO0_33554432Actual Number of Elements=33554432;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000002000c402107426f6f6c65616e0012404000018000020000000464617461000001000100000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"P2P Writer"ControlLogic=0;NumberOfElements=1023;Type=4;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;P2P Writer;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"PXIe-7902R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7902RFPGA_TARGET_FAMILYVIRTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+			</Item>
+			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="instr.lib" Type="Folder">
+					<Item Name="niInstr Streaming v1 Common.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Streaming/v1/Common/niInstr Streaming v1 Common.lvlib"/>
+					<Item Name="niInstr Streaming v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Streaming/v1/FPGA/niInstr Streaming v1 FPGA.lvlib"/>
+				</Item>
+				<Item Name="vi.lib" Type="Folder">
+					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Build Specifications" Type="Build">
+				<Item Name="PXIe-7902 Getting Started" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+					<Property Name="BuildSpecDecription" Type="Str"></Property>
+					<Property Name="BuildSpecName" Type="Str">PXIe-7902 Getting Started</Property>
+					<Property Name="Comp.BitfileName" Type="Str">PXIe-7902_Getting_Started.lvbitx</Property>
+					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+					<Property Name="Comp.Version.Build" Type="Int">0</Property>
+					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+					<Property Name="Comp.Version.Major" Type="Int">1</Property>
+					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Explore</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Explore</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Explore</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Explore</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Optimize performance</Property>
+					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+					<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+					<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+					<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+					<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="ProjectPath" Type="Path">/C/Users/eng/Downloads/PXIe-7902-Getting-Started/src/PXIe-791X Getting Started modified for 7902/PXIe-791X Getting Started modified for 7902.lvproj</Property>
+					<Property Name="RelativePath" Type="Bool">true</Property>
+					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+					<Property Name="SupportDownload" Type="Bool">true</Property>
+					<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+					<Property Name="TargetName" Type="Str">Coprocessor FPGA (PXIe-7902)</Property>
+					<Property Name="TopLevelVI" Type="Ref">/My Computer/Coprocessor FPGA (PXIe-7902)/PXIe-7902 Getting Started (FPGA).vi</Property>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
