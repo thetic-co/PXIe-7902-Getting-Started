@@ -4,7 +4,7 @@ Modification of the `PXIe-791X Getting Started` from the NI LabVIEW Example Find
 
 ## Why Modify the Example
 
-The example project provided by National Instruments (NI\Emerson) is suited to the PXIe-791x family of FPGA co-processors.  A previous generation of co-processor, the PXIe-7902 could benefit from a similar example.  The original source code was used as inspiration to create a version of the same Gettin Started example.
+The example project provided by National Instruments (NI\Emerson) is suited to the PXIe-791x family of FPGA co-processors.  A previous generation of FPGA device, the PXIe-7902, marketed as a High Speed Serial (HSS) device, could benefit from a similar example.  The original source code was used as inspiration to create a version of the same Getting Started example.
 
 ### Key Differences between the PXIe-791x and the PXIe-7902
 
@@ -13,7 +13,7 @@ The example project provided by National Instruments (NI\Emerson) is suited to t
 | DRAM                      | 4GB (2 Banks x 2GB) | 2GB (1 Bank x 2GB) |
 | DRAM Max Data Width       | 256                 | 512                |
 | Top-level clock (default) | 80 MHz              | 40 MHz             |
-| PXIe_Clk100               | Present             | Not Present        |
+| PXIe_Clk100               | Present on FPGA     | Present for CLIP   |
 
 ### Original Project Location
 
@@ -32,7 +32,7 @@ C:\Program Files\NI\LVAddons\flexrioii\1\examples\FlexRIO\Coprocessor Modules
 
 ## How to Use this Repository
 
-The default branch of this repo is `main` with the Thetic actively developing in `dev`. 
+The default branch of this repo is `main` with the Thetic actively developing in `dev`.
 
 ## About Thetic Engineering Ltd
 
