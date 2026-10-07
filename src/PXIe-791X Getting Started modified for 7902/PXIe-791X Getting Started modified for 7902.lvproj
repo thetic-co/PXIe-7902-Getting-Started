@@ -75,8 +75,13 @@ It is a modification from NI's 791x Getting Started Example that ships with LabV
 		<Item Name="Controls" Type="Folder" URL="../Controls">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Basic DMA.vi" Type="VI" URL="../Host/Basic DMA.vi"/>
-		<Item Name="P2P High-Speed Stream to Disk.vi" Type="VI" URL="../Host/P2P High-Speed Stream to Disk.vi"/>
+		<Item Name="original" Type="Folder">
+			<Item Name="Basic DMA.vi" Type="VI" URL="../Host/Basic DMA.vi"/>
+			<Item Name="P2P High-Speed Stream to Disk.vi" Type="VI" URL="../Host/P2P High-Speed Stream to Disk.vi"/>
+		</Item>
+		<Item Name="7902" Type="Folder">
+			<Item Name="Basic DMA feat Freq Shift.vi" Type="VI" URL="../Host/Basic DMA feat Freq Shift.vi"/>
+		</Item>
 		<Item Name="Coprocessor FPGA" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
 			<Property Name="configString.guid" Type="Str">{0233EE5A-5F58-456A-8176-5B5E0BF61F8F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source7;0;WriteMethodType=bool{05FD85EF-97A8-49F8-829C-79B0C695145A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source1;0;WriteMethodType=bool{076B131A-6916-4F13-AB08-B64C38447712}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source25;0;WriteMethodType=bool{079B6671-DFA5-4E48-B09F-E4767A77B983}ResourceName=80 MHz Clock;TopSignalConnect=PllClk80;ClockSignalName=PllClk80;MinFreq=80000000.000000;MaxFreq=80000000.000000;VariableFreq=0;NomFreq=80000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{09392282-A5DF-4AF1-8B25-45A57533E2D4}ResourceName=PXIe_Clk100;TopSignalConnect=PxieClk100;ClockSignalName=PxieClk100;MinFreq=100000000.000000;MaxFreq=100000000.000000;VariableFreq=0;NomFreq=100000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{0BFD8E3F-9614-4F3C-B835-D7A7DAE8A7EE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source3;0;WriteMethodType=bool{0F14445D-8D9B-43CB-8F08-6829F433D42A}"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=16;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P Reader;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{135B4F0C-6562-4D13-B28B-2C6F1710D3A0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source17;0;WriteMethodType=bool{1631B17A-716C-4E46-89D4-087E8DE5CB97}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=16;Implementation=2;DMA to Host;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{1CEEFD45-27D1-47F3-AD21-4A92F391225B}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination23;0;ReadMethodType=bool{1DBA270B-13B6-433B-97B5-D1E8BF84DB10}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination4;0;ReadMethodType=bool{1E2703F9-A19C-41C5-AAA1-C182431698C6}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination8;0;ReadMethodType=bool{1E6B3A0D-DD0F-4E6F-B839-1010177FC154}NumberOfSyncRegistersForReadInProject=Auto;resource=/Routing/SignalList/Destination20;0;ReadMethodType=bool{2747F94D-45D5-4636-971C-D1CB20103F14}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Source8;0;WriteMethodType=bool{27AD7052-7648-48B3-BEFE-A478EB1A95AF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/Routing/SignalList/Diagram Identity;0;WriteMethodType=
@@ -4513,6 +4518,8 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">false</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/eng/Downloads/PXIe-7902-Getting-Started/src/PXIe-791X Getting Started modified for 7902/FPGA Bitfiles/PXIe-7902 Getting Started feat Freq Shift.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/PXIe-7902 Getting Started feat Freq Shift.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/eng/Downloads/PXIe-7902-Getting-Started/src/PXIe-791X Getting Started modified for 7902/PXIe-791X Getting Started modified for 7902.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -4585,6 +4592,7 @@ P2P Reader"ControlLogic=0;NumberOfElements=1119;Type=3;ReadArbs=Arbitrate if Mul
 			<Item Name="nip2p.dll" Type="Document" URL="nip2p.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PXIe-7902 Getting Started feat Freq Shift.lvbitx" Type="Document" URL="../FPGA Bitfiles/PXIe-7902 Getting Started feat Freq Shift.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
